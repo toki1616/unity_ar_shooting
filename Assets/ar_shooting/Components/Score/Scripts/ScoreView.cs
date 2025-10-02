@@ -5,12 +5,12 @@ using Zenject;
 
 public class ScoreView : MonoBehaviour
 {
-    private ScorePresenter _scorePresenter;
+    private ScoreViewModel _scorePresenter;
 
     [Inject]
     public void Construct
         (
-            ScorePresenter scorePresenter
+            ScoreViewModel scorePresenter
         )
     {
         Debug.Log("ScoreView : Inject");

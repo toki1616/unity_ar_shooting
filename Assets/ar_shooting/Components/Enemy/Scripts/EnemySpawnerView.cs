@@ -4,12 +4,12 @@ using Zenject;
 
 public class EnemySpawnerView : MonoBehaviour
 {
-    private EnemyPresenter _enemyPresenter;
+    private EnemyViewModel _enemyPresenter;
 
     [Inject]
     public void Construct
         (
-            EnemyPresenter enemyPresenter
+            EnemyViewModel enemyPresenter
         )
     {
         Debug.Log("EnemySpawnerView : Inject");

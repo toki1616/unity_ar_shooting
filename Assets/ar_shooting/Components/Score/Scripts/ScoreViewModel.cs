@@ -1,13 +1,13 @@
 using UnityEngine;
 using R3;
 
-public class ScorePresenter
+public class ScoreViewModel
 {
     private readonly ScoreModel _scoreModel;
     
-    public ScorePresenter(ScoreModel scoreModel)
+    public ScoreViewModel(ScoreModel scoreModel)
     {
-        Debug.Log("ScorePresenter : Inject");
+        Debug.Log("ScoreViewModel : Inject");
         _scoreModel = scoreModel;
     }
     

@@ -1,13 +1,13 @@
 using UnityEditor;
 using UnityEngine;
 
-public class EnemyPresenter
+public class EnemyViewModel
 {
     private readonly EnemyFactory _enemyFactory;
     
-    public EnemyPresenter(EnemyFactory enemyFactory)
+    public EnemyViewModel(EnemyFactory enemyFactory)
     {
-        Debug.Log("EnemyPresenter : Inject");
+        Debug.Log("EnemyViewModel : Inject");
         
         _enemyFactory = enemyFactory;
     }

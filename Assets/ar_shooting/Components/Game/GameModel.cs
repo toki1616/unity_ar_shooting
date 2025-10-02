@@ -2,9 +2,9 @@ using UnityEngine;
 using R3;
 
 public class GameModel {
-    private SceneChangePresenter _sceneChangePresenter;
+    private SceneChangeViewModel _sceneChangePresenter;
     
-    public GameModel(SceneChangePresenter sceneChangePresenter)
+    public GameModel(SceneChangeViewModel sceneChangePresenter)
     {
         Debug.Log("GameModel : Inject");
         

@@ -1,10 +1,10 @@
 using UnityEngine;
 using R3;
 
-public class GamePresenter
+public class GameViewModel
 {
     private GameModel _gameModel;
-    public GamePresenter(GameModel gameModel)
+    public GameViewModel(GameModel gameModel)
     {
         _gameModel = gameModel;
     }

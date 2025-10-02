@@ -3,12 +3,12 @@ using Zenject;
 
 public class EnemyHitDetectorView : MonoBehaviour
 {
-    private ScorePresenter _scorePresenter;
+    private ScoreViewModel _scorePresenter;
 
     [Inject]
     public void Construct
         (
-            ScorePresenter scorePresenter
+            ScoreViewModel scorePresenter
         )
     {
         Debug.Log("EnemyHitDetectorView : Inject");

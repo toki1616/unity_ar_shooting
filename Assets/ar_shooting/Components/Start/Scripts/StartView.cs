@@ -5,12 +5,12 @@ using R3;
 
 public class StartView : MonoBehaviour
 {
-    private GamePresenter _gamePresenter;
+    private GameViewModel _gamePresenter;
 
     [Inject]
     public void Construct
         (
-            GamePresenter gamePresenter
+            GameViewModel gamePresenter
         )
     {
         Debug.Log("StartView : Inject");
