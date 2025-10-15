@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class SceneChangePresenter
+public class SceneChangeViewModel
 {
     private readonly SceneChangeModel _sceneChangeModel;
     
-    public SceneChangePresenter(SceneChangeModel sceneChangeModel)
+    public SceneChangeViewModel(SceneChangeModel sceneChangeModel)
     {
         _sceneChangeModel = sceneChangeModel;
     }

@@ -8,7 +8,7 @@ public class ScoreInstaller : MonoInstaller
         Debug.Log("ScoreInstaller run");
 
         //Presenter
-        Container.Bind<ScorePresenter>().AsSingle();
+        Container.Bind<ScoreViewModel>().AsSingle();
         
         //Model
         //Container.Bind<ScoreModel>().AsSingle();

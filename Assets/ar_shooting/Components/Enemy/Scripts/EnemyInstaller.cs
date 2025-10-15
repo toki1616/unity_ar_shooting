@@ -37,6 +37,6 @@ public class EnemyInstaller : MonoInstaller
         Container.Bind<EnemyFactory>().AsSingle().WithArguments(prefabDict);
 
         //Presenter
-        Container.Bind<EnemyPresenter>().AsSingle();
+        Container.Bind<EnemyViewModel>().AsSingle();
     }
 }

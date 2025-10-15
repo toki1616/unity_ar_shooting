@@ -1,13 +1,13 @@
 using UnityEngine;
 using R3;
 
-public class TimeLimitPresenter
+public class TimeLimitViewModel
 {
     private readonly TimeLimitModel _timeLimitModel;
     
-    public TimeLimitPresenter(TimeLimitModel timeLimitModel)
+    public TimeLimitViewModel(TimeLimitModel timeLimitModel)
     {
-        Debug.Log("TimeLimitPresenter : Inject");
+        Debug.Log("TimeLimitViewModel : Inject");
         
         _timeLimitModel = timeLimitModel;
     }

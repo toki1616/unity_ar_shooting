@@ -5,14 +5,14 @@ using Zenject;
 
 public class TimeLimitView : MonoBehaviour
 {
-    private TimeLimitPresenter _timeLimitPresenter;
-    private GamePresenter _gamePresenter;
+    private TimeLimitViewModel _timeLimitPresenter;
+    private GameViewModel _gamePresenter;
 
     [Inject]
     public void Construct
         (
-            TimeLimitPresenter timeLimitPresenter,
-            GamePresenter gamePresenter
+            TimeLimitViewModel timeLimitPresenter,
+            GameViewModel gamePresenter
         )
     {
         Debug.Log("TimeLimitView : Inject");

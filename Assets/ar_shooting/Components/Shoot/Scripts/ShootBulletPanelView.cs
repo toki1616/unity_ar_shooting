@@ -6,12 +6,12 @@ using Zenject;
 
 public class ShootBulletPanelView : MonoBehaviour
 {
-    private ShootPresenter _shootPresenter;
+    private ShootViewModel _shootPresenter;
 
     [Inject]
     public void Construct
         (
-            ShootPresenter shootPresenter
+            ShootViewModel shootPresenter
         )
     {
         Debug.Log("ShootBulletPanelView : Inject");

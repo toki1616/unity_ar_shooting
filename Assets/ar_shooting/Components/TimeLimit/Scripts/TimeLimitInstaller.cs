@@ -8,7 +8,7 @@ public class TimeLimitInstaller : MonoInstaller
         Debug.Log("TimeLimitInstaller run");
 
         //Presenter
-        Container.Bind<TimeLimitPresenter>().AsSingle();
+        Container.Bind<TimeLimitViewModel>().AsSingle();
         
         //Model
         Container.Bind<TimeLimitModel>().AsSingle();

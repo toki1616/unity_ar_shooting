@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class ShootPresenter
+public class ShootViewModel
 {
     private readonly GameObject ballPrefab;
 
-    public ShootPresenter(GameObject ballPrefab)
+    public ShootViewModel(GameObject ballPrefab)
     {
-        Debug.Log("ShootBallPresenter : Inject");
+        Debug.Log("ShootViewModel : Inject");
         this.ballPrefab = ballPrefab;
     }
     

@@ -5,14 +5,14 @@ using Zenject;
 
 public class EndView : MonoBehaviour
 {
-    private GamePresenter _gamePresenter;
-     private ScorePresenter _scorePresenter;
+    private GameViewModel _gamePresenter;
+     private ScoreViewModel _scorePresenter;
 
     [Inject]
     public void Construct
         (
-            GamePresenter gamePresenter,
-            ScorePresenter scorePresenter
+            GameViewModel gamePresenter,
+            ScoreViewModel scorePresenter
         )
     {
         Debug.Log("EndView : Inject");

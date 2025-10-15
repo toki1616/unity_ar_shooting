@@ -12,6 +12,6 @@ public class ShootInstaller : MonoInstaller
         Debug.Log("ShootInstaller run");
 
         //Presenter
-        Container.Bind<ShootPresenter>().AsSingle().WithArguments(ballPrefab);
+        Container.Bind<ShootViewModel>().AsSingle().WithArguments(ballPrefab);
     }
 }

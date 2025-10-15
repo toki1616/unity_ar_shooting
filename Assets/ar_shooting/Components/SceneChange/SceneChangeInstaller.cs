@@ -9,6 +9,6 @@ public class SceneChangeInstaller : MonoInstaller
         Container.Bind<SceneChangeModel>().AsSingle();
         
         //Presenter
-        Container.Bind<SceneChangePresenter>().AsSingle();
+        Container.Bind<SceneChangeViewModel>().AsSingle();
     }
 }
